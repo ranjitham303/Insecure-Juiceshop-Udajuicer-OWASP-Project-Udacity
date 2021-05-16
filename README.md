@@ -1,4 +1,4 @@
-# Insecure-Juiceshop-Udajuicer-OWASP-Project-Udacity
+# Insecure Juice Shop & Vulnerability Report
 Insecure Juice shop
 #Section 1: Threat Assessment
 It’s time to get to work! You’ve arrived at one Udajuicer’s headquarters located in Miami and are shocked at the lack of technology. You ponder how in the world is this the largest juice shop without ever using computers or relying on technology. After the initial shock, you’re ready to get back on track and get to work. Manu, the eccentric owner, takes it upon himself to work with you directly to make sure you have everything you need. You first request an architecture diagram of the application and logs from right before the application went down. At a quick glance you notice the woefully designed architecture and buckle up for a long day, all the whilst Manu is in your ear talking about Super Smoothies evil plot to take down his franchise.
@@ -72,3 +72,50 @@ The next issue we want to fix is the SQL injection vulnerability on his login pa
 
 Task 4: XSS Mitigation
 The last issue we want to fix is the XSS vulnerability. We’ve covered a few different strategies on how to prevent XSS attacks, choose one or more of the methods we’ve covered in the course and describe how implementing it would prevent further XSS attacks.
+
+
+
+
+
+Vulnerability Report
+Project Instructions
+Your task is to complete a vulnerability assessment according to your organization’s Vulnerable Assessment standards using a provided report template. Your report will be consumed by leadership of the Development Team, as well as practitioners. It is important to note that the report must account for audiences of multiple technical levels, including management, supervisors, and practitioners. Generally speaking, the first section of the report is a summary appropriate for management. As the report continues, it becomes more technical, with the final sections intended for the Development Team, who will be responsible for remediation efforts.
+
+Your organization has a report template that standardizes all vulnerability assessment and analysis, which is available here.
+
+Your vulnerability report must contain the following sections:
+
+Report Title/Cover Page
+Table of Contents
+Engagement Overview
+Discussion of who requested the assessment and what the initial request was.
+Discussion of appropriate assessment scope.
+Scope
+Given the information provided by the Development Team, determine the appropriate scope of the vulnerability assessment.
+Explain how the scope was determined.
+If necessary, explain any considerations of the project that are considered out-of-scope and why.
+Risk Analysis
+Provide a high-level risk assessment of the overall assessed risk. Provide an explanation of why this risk-level was reported. (High | Medium | Low)
+In Layman’s terms, explain what vulnerabilities caused the overall rated risk.
+Recommendation
+Provide general guidance for the Development Team to correct, mitigate, or resolve the assessed highest risk vulnerabilities.
+Vulnerability Summary
+Provide a list of the significant assessed vulnerabilities listed in order of descending risk.
+Vulnerability Detail
+For each significant assessed vulnerability, provide additional information.
+Include the vulnerability name (and CVE if applicable).
+Include an explanation of how the vulnerability was identified and validated.
+Include an explanation of the vulnerabilities' probability of exploit.
+Include a short proof-of-validation of the vulnerability (typically a screenshot or log excerpt, etc.).
+Analysis Methodology
+The methodology section should be a scientific methodology that would allow another analyst to replay your actions to arrive at the same conclusions about the overall risk.
+Include how the application was initially accessed and include a validation the defined scope is appropriate for the assessment.
+Include a list of tools that will be used during the vulnerability assessment.
+Explain in logical (usually chronological) order the actions that were taken to perform the vulnerability assessment.
+Include screenshots of the vulnerability assessment process, tools, and actions made during the vulnerability validation.
+Project Rubric
+While the starter template should lead you to a proper submission, make sure to double check your work against the project rubric requirements.
+Additional Information regarding OWASP Juice Shop
+The web-application is an Open Source MIT licensed intentionally vulnerable web application designed to challenge and instruct those interested in web-application testing. The application includes a Capture-the-flag component and a scoring system, however it is not necessary to complete the capture-the-flag component or achieve a certain score for this project.
+
+Your task in this project is to complete a vulnerability assessment of the application. You may choose to complete the capture-the-flag component of the application as an additional learning opportunity after the vulnerability assessment project is completed.
